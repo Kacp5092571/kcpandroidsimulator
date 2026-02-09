@@ -4,4 +4,5 @@ function timersetup(){
     let space = " "
     let specialevent = "None";
     let monthyear = month + space + year
+    console.log(monthyear) //change later to document.getElementById
     }
