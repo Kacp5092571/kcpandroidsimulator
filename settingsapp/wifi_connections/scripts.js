@@ -2,7 +2,7 @@ function starttoggle(){
     let toggle = 1;
 let foreversssss = 1;
 while (foreversssss===1){
-document.getElementById("showwifionoroff").innerHTML = toggleshow;
+document.getElementById("showwifi").innerHTML = toggleshow;
 }
 }
 
@@ -23,4 +23,8 @@ while (toggle===0){
     let toggleshow = "Off";
 }
 }
+}
+
+function showwifipower(){
+    document.getElementById("showwifi").innerHTML = toggleshow;
 }
