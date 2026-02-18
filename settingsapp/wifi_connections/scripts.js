@@ -1,7 +1,7 @@
 function starttoggle(){
     let toggle = 1;
-let foreversssss = 1;
-while (foreversssss===1){
+let forevea = 1;
+while (forevea===1){
 document.getElementById("showwifi").innerHTML = toggleshow;
 }
 }
@@ -15,7 +15,7 @@ if (toggle===-1){
 }
 
 function toggleshowsettings(){
-    while (foreversssss===1){
+    while (forevea===1){
     while (toggle===1){
 let toggleshow = "On";
     }
