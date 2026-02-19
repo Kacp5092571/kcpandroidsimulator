@@ -33,7 +33,7 @@ button{
     96% {left: 460px; top: 105px;}
     98% {left: 500px; top: 100px;}
     99% {left: 545px; top:90px;}
-    100% {left: 390px; top:70px;}
+    100% {left: 390px; top:70px; display: none;}
 }
 
 #animcontainer{
