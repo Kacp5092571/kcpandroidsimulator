@@ -37,8 +37,6 @@ button{
 }
 
 #animcontainer{
-animation: pulse 0.5s ease;
-    animation-delay: 0s;
-    animation-name: myanim;
-animation-duration: 5s;
+position: relative;
+    animation: myanim 5s ease 0s;
 }
