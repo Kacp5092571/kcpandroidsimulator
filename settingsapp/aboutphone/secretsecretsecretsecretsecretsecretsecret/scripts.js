@@ -25,6 +25,9 @@ function changething(){
     };
              if (changes ===8){
       textmessage = "Sausage";
+    };
+                 if (changes ===9){
+      textmessage = "sausage";
       alert('Sausage!');
     };
     document.getElementById('changeable').innerHTML = textmessage;
