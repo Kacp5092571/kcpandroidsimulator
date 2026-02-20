@@ -5,4 +5,16 @@ body{
    border-radius: 50%;
    background-color: rgb(206, 95, 78);
    display: inline-block;
+   position: relative;
+   animation: myanimsausage 5s ease 0s;
 }
+
+@keyframes myanimsausage{   
+0%{left: 0px; top: 0px;}
+20%{left: 20px; top: -10px;}
+40%{left: 40px; top: -20px;}
+60% {left: 60px; top: -30px;}
+80%{left: 80px; top: -40px;}
+100% {left: 100px; top: -50px;}
+}
+ 
