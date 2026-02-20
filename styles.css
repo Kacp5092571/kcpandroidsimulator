@@ -1,4 +1,5 @@
 #settbutton{
+    animation: myloadanim 5s ease 0s;
     background-image: linear-gradient(to top, rgb(125, 125, 125), rgb(204, 201, 201));
 }
 body{
