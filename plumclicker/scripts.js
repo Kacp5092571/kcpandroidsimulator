@@ -13,3 +13,4 @@ setInterval(function otherotherthing(){
 timeusedorwasted = timeusedorwasted + 1;
 }, 1000)  
 }
+//basically something
