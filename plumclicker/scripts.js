@@ -1,5 +1,6 @@
 let clickss = 0    
 let timeusedorwasted = 0
+let idk = 1
 function addtheclicks(){
   clickss = clickss + 1;
 setInterval(function otherthing(){
@@ -7,6 +8,8 @@ setInterval(function otherthing(){
     if (clickss > 29){
         alert('wow you actually spent your time doing this');
         alert('screenshot this to show off to your friends for absolutley no reason');
+        console.log(idk);
+        console.log('wow the player did this')
     };
 }, 500)
 setInterval(function otherotherthing(){
