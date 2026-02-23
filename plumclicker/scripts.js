@@ -1,6 +1,5 @@
 let clickss = 0    
 let timeusedorwasted = 0
-let idk = 1
 function addtheclicks(){  
     clickss = clickss + 1;    
     document.getElementById('pointsdisplay').innerHTML = clickss;   
