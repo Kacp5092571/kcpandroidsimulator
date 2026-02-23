@@ -1,6 +1,8 @@
 let secss = 0
+let letting = 0
 function timersetup(){
-    let month = "February"
+   if (letting === 0){
+        let month = "February"
     let year = "2026";
     let space = " "
     let specialevent = "Valentine's has happened recently";
@@ -11,4 +13,6 @@ setInterval(function thing() {
         secss = secss + 1;
 document.getElementById("seconds").innerHTML = secss;    
 }, 1000)
+   } 
+letting = 1
     }
