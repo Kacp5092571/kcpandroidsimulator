@@ -1,6 +1,6 @@
-tak = 0
+let tak = 0
 function właczpljęzyk(){
-    let tak = 1;
+    tak = 1;
 document.getElementById("textsettings").innerHTML = "Ustawienia";
 document.getElementById("textapptime").innerHTML = "aplikacja do czasu? (i ta aplikacja nie jest do godziny!)";
 document.getElementById("plumclicker").innerHTML = "Kliker śłiwki";
