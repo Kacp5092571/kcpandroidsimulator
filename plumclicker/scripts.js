@@ -4,7 +4,7 @@ let plumwords = " plum/s"
 let fullthing = " "
 function addtheclicks(){  
     clickss = clickss + 1;
-clicksstr = toString(clicks);
+clicksstr = toString(clickss);
 fullthing = clicksstr + plumwords;
     document.getElementById('pointsdisplay').innerHTML = fullthing;   
   if (clickss > 29){
