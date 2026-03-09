@@ -20,11 +20,12 @@ body{
     width: 360px;
     background-color: gainsboro;
     border-radius: 15px;
+    animation: myloadanim 4s ease 0s;
 }
 
 button{
     border-radius: 10px;
-    animation: myloadanim 3s ease 0s;
+    animation: myloadanim 4s ease 0s;
 }
 
 @keyframes myloadanim{
