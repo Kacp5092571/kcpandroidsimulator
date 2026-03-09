@@ -21,6 +21,9 @@ body{
     background-color: gainsboro;
     border-radius: 15px;
     animation: myloadanim 4s ease 0s;
+    align-self: center;
+    align-items: center;
+    text-align: center;
 }
 
 button{
