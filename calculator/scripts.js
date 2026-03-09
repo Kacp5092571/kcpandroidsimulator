@@ -3,19 +3,19 @@ function choosenumcalc(){
      let ope = prompt('operators');
      let num2 = prompt('num2');
      let ans = 0;
-     parseInt(num1)
-     parseInt(num2)
+     let num11 = parseInt(num1)
+     let num22 = parseInt(num2)
      if (ope === "*"){
-ans = num1 * num2;
+ans = num11 * num22;
      }
      if (ope === "+"){
-          ans = num1 + num2;
+          ans = num11 + num22;
      }
      if (ope === "/"){
-          ans = num1/num2;
+          ans = num11/num22;
      }
      if (ope === "-"){
-          ans = num1-num2;
+          ans = num11-num22;
      }
      parseInt(ans)
      prompt(ans)
