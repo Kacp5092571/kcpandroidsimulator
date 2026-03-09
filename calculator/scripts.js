@@ -15,5 +15,6 @@ ans = num1 * num2;
      if (ope === "-"){
           ans = num1-num2;
      }
+     prompt(ans)
      document.getElementById("answer").innerHTML = ans;
 }
